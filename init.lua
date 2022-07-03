@@ -1,2 +1,2 @@
+require('zr.settings')
 
-require('settings')
