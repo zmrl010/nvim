@@ -18,7 +18,7 @@ augroup packer_user_config
   augroup end
 ]])
 
-vim.cmd([[packadd packer.nvim]])
+-- vim.cmd([[packadd packer.nvim]])
 
 return require('packer').startup(function(use)
   
