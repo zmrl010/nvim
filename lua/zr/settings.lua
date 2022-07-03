@@ -48,7 +48,7 @@ end
 
 -- Use colorscheme later when its plugin is enabled
 -- Use `nested` to allow `ColorScheme` event
-vim.cmd([[au VimEnter * nested ++once colorscheme minischeme]])
+-- vim.cmd([[au VimEnter * nested ++once colorscheme minischeme]])
 -- Other interesting color schemes:
 -- - 'morhetz/gruvbox'
 -- - 'rakr/vim-one'
