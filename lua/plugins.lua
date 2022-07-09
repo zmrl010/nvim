@@ -26,7 +26,10 @@ return require('packer').startup(function(use)
   use 'alaviss/nim.nvim'
   use 'mhartington/formatter.nvim'
   use 'neovim/nvim-lspconfig'
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use { 
+    'nvim-treesitter/nvim-treesitter', 
+    run = ':TSUpdate' 
+  }
   use 'nvim-telescope/telescope.nvim'
   use 'lewis6991/gitsigns.nvim'
   use 'kyazdani42/nvim-web-devicons'
@@ -43,7 +46,12 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip'
   use 'vo1dikss/vim-floaterm'
   use 'nvim-telescope/telescope-ui-select.nvim'
-  
+  use 'nvim-lua/plenary.nvim'
+  use {
+    'folke/trouble.nvim',
+    requires = 'kyazdan142/nvim-web-devicons'
+  }
+
   if packer_bootstrap then
     require('packer').sync()
   end
